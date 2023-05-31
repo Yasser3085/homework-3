@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      height: 100vh;
+    }
+    footer {
+      margin-top: 60vh;
+    }
+  </style>
+  <body class="">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">My Blog</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="card mb-4">
+      <div class="card-body container">
+        <h5 class="card-title text-center">Post Title 1</h5>
+
+        <p class="card-text text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis velit
+          esse excepturi quibusdam doloribus porro maiores error in distinctio
+          consequuntur dolorem fugit reprehenderit ut nihil fugiat, aliquam,
+          natus voluptates incidunt dolor quam. Harum nostrum est ab aut vero et
+          recusandae provident culpa. Architecto dolorem minus nobis porro quasi
+          quae placeat ut ea natus iste in, iusto rerum repellendus vero?
+          Incidunt modi quo doloremque nemo provident sapiente nobis dolores
+          alias porro.
+        </p>
+        <a href="/index.html" class="card-link">Back to home </a>
+      </div>
+    </div>
+    <!-- Single Post Page -->
+    <div id="single-post-page" class="container">
+      <div class="form-group">
+        <textarea
+          id="comment"
+          class="form-control"
+          placeholder="Add a comment"
+        ></textarea>
+        <button id="comment-submit" class="btn btn-primary mt-2">
+          Post Comment
+        </button>
+      </div>
+      <div class="card mt-4">
+        <div class="card-body">
+          <h5 class="card-title">Comment 1</h5>
+          <p id="comment-text" class="card-text"></p>
+          <a id="delete-button" href="#" class="card-link">Delete</a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+
+    <!-- Your content here -->
+    <footer
+      class="bg-dark text-white text-center py-3 position-absolute bottom-0 w-100"
+    >
+      <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
